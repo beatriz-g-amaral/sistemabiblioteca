@@ -16,10 +16,16 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/config/routes.php";
             ×
         </a>
            <li><a href="/home">Home</a></li> 
-            <li><a href="/View/catalogacao/cadastro_pesquisa.php">Catalogação</a></li> 
-            <li><a href="/View/emprestimo/emprestimo_retirada.php">Empréstimo</a></li> 
+            <li>
+              <a href="#">Catalogação</a> 
+              <ul>
+                <li><a href="/catalogacao/cadastro">Cadastro Livro</a></li>
+                <li><a href="/catalogacao/pesquisa">Pesquisa Livro</a></li>
+              </ul>
+            </li>
+            <li><a href="/emprestimo/emprestimo_retirada">Empréstimo</a></li> 
             <li><a href="#">Aluno/Servidores</a></li> 
-            <li><a href="/config/configuracoes.php">Configurações</a></li>
+            <li><a href="/configuracoes">Configurações</a></li>
             <li><a href="/index.php">Sair</a></li> 
       
     </ul>

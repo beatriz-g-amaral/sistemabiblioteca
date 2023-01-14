@@ -24,8 +24,8 @@ include $_SERVER['DOCUMENT_ROOT'] . "/View/util/menu.php"; ?>
     <input type="text" name="titulolivro" id="titulolivro" class="input" placeholder="Digite o nome do livro" required><br>
     </div></br>
  <div class="teste">
-    <label for="idestudante" class="textboxlivro">Codigo do</label>
-    <input type="text" name="idestudante" id="idestudante" class="input" placeholder="Digite o código" required><br>
+    <label for="idservidor" class="textboxlivro">Codigo do Estudante</label>
+    <input type="text" name="idservidor" id="idservidor" class="input" placeholder="Digite o código" required><br>
     </div></br>
    <div class="teste">
     <label for="nome" class="textboxlivro">Nome do Livro</label>
