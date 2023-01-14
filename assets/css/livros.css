@@ -1,0 +1,12 @@
+.containerlivro {
+  position: absolute; 
+  left: 346px; 
+  margin: 25px;
+  width: fit-content; 
+  height: fit-content; 
+  background: #FFFFFFFF; /* white */
+  border-radius: 18px; /* border-l */
+  box-shadow: 0px 2px 5px #171a1f, 0px 0px 2px #171a1f; /* shadow-s */
+  text-align: center;
+}
+

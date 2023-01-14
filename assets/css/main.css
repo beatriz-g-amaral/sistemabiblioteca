@@ -1,0 +1,147 @@
+body {
+  background-color: lightblue;
+  margin: 0;
+  font-family: Manrope;
+}
+
+.header {
+  position: relative; 
+  top: auto; 
+  left: auto; 
+  width: 430px; 
+  height: 90px; 
+  background: #FBBDBFFF; /* danger-200 */
+  border-radius: 12px; /* border-m */
+}
+
+.image {
+  position: relative; 
+  top: 2px; 
+  left: 9px; 
+  width: 81px; 
+  height: 60px; 
+  border-radius: 12px; /* border-m */
+}
+.logo {
+    width: 100%;
+}
+.index {
+  position: relative; 
+  width: fit-content; 
+  height: fit-content; 
+  background: #A6F5FFFF; /* primary-200 */
+  border-radius: 9px; /* border-s */
+  box-shadow: 0px 2px 5px #171a1f, 0px 0px 2px #171a1f; /* shadow-s */
+}
+.submenu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submenu a {
+    margin: 10px;
+    text-decoration: none;
+    color: #3DA5E1FF; 
+    font-size:18px;
+}
+
+.menutopo {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #FFFFFFFF;
+    border-radius: 0px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    width: auto;
+    margin: 10% 30%;
+    height: auto;
+    background: #FFFFFFFF;
+    border-radius: 18px;
+    box-shadow: 0px 4px 9px #171a1f, 0px 0px 2px #171a1f;
+    text-align: -webkit-center;
+}
+.textbox{
+  position: relative;
+  font-family: Manrope; 
+  font-size: 16px; 
+  font-color: #171A1FFF;
+}
+.textboxtitulo{
+  position: relative;
+  font-family: Manrope; 
+  font-size: 32px; 
+  font-color: #404245;
+}
+.teste{
+    margin-right: auto;
+    display: inline-flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+.input {
+  width: auto; 
+  height: auto; 
+  padding: 12px 12px 12px 12px;
+  font-family: Manrope; /* Body */
+  font-size: 16px; 
+  background: #F3F4F6FF;
+  border-radius: 12px; /* border-m */
+  border-width: 0px; 
+  outline: none; 
+  position: relative;
+ 
+}
+.input .label {
+  font-size: 16px; 
+  line-height: 26px; 
+}
+/* hover */
+.input:hover {
+  color: #9095A0FF; /* neutral-500 */
+  background: #F8F9FAFF; /* neutral-150 */
+}
+/* focused */
+.input:focused {
+  color: #9095A0FF; /* neutral-500 */
+  background: #F8F9FAFF; /* neutral-150 */
+}
+/* disabled */
+.input:disabled {
+  color: #9095A0FF; /* neutral-500 */
+  background: #F8F9FAFF; /* neutral-150 */
+}
+  
+.button {
+    width: 359px;
+    height: 52px;
+    padding: 52;
+    font-family: Manrope;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3DA5E1FF;
+    background: #FFFFFFFF;
+    opacity: 1;
+    border: 1px solid;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+/* Hover */
+.button:hover {
+  color: #1E87C3FF; 
+  background: #FFFFFFFF; /* white */
+}
+/* Pressed */
+.button:hover:active {
+  color: #1A75A9FF; 
+  background: #FFFFFFFF; /* white */
+}
+/* Disabled */
+.button:disabled {
+  opacity: 0.4; 
+}
