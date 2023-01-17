@@ -9,7 +9,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/View/util/header.php";
 <?php
 include $_SERVER['DOCUMENT_ROOT'] . "/View/util/menu.php"; ?>
  <div class="containerlivro">   
-        <form action="/../../Model/database/proc_livro.php" method= "post" >
+        <form action="/../../teste.php" method= "post" >
     
     <h4 class="textboxtitulo">Cadastro de livros</h4>
     <div class="teste"style="margin:32px;">

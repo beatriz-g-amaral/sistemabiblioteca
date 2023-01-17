@@ -21,4 +21,9 @@
     header("Location: /config/configuracoes.php");
     exit;
   }
+    
+  if ($_SERVER["REQUEST_URI"] == "/alunos_cadastro") {
+    header("Location: /alunos-servidores/alunos_cadastro.php");
+    exit;
+  }
 ?>

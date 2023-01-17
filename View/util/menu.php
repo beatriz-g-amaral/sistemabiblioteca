@@ -24,7 +24,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/config/routes.php";
               </ul>
             </li>
             <li><a href="/emprestimo/emprestimo_retirada">Empréstimo</a></li> 
-            <li><a href="#">Aluno/Servidores</a></li> 
+            <li><a href="/alunos-servidores/alunos_cadastro">Aluno/Servidores</a></li> 
             <li><a href="/configuracoes">Configurações</a></li>
             <li><a href="/index.php">Sair</a></li> 
       

@@ -1,23 +1,23 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . "/View/header.php";
+include $_SERVER['DOCUMENT_ROOT'] . "/View/util/header.php";
 ?>
 <title>Configurações</title>
-<link rel="stylesheet" href="css/livros.css">
+<link rel="stylesheet" href="assets/css/livros.css">
 </head>
 
 <body>
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . "/View/menu.php"; ?>
+include $_SERVER['DOCUMENT_ROOT'] . "/View/util/menu.php"; ?>
     
     
   <div class="container">
-    <<h1 class="text"> Configurações</h1>
+    <h1 class="text"> Configurações</h1>
     <form action="Model/database/proc_usuarioedit.php" method="post">
 
       <div class="teste">
       <label for="email" class="textbox">Editar Email:</label>
-      <input type="email" name="email" id="email" class="textboxemail input"> 
-        </div>
+      <input type="email" name="email" id="email" class="textboxemail input">
+        </div> </br>
       <div class="teste">
       <label for="email" class="textbox">Editar Nome:</label>
       <input type="text" name="nome" id="nome" class="textboxemail input">
@@ -28,7 +28,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/View/menu.php"; ?>
       <input type="password" name="senha" id="senha" class="textboxsenha input"  oninput="a(this)">
         </div>
    </br>
-   
+    </br>
       <button type="submit" name="enviardados" class="button">Salvar alterações</button>      
     </form>
   </div>

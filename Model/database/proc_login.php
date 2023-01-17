@@ -3,7 +3,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] .  "/Infrastructure/conexao.php";
 // // Aqui vamos processar o login
  if (!empty($_POST)) {
   // Iniciar SESSAO (session_start)
-  session_start();
+  session_start(); 
   try {
     // Montar a SQL
     $sql = "SELECT nome, email, senha, ativo, data_cadastro,ultimo_login FROM usuario WHERE email=:email AND senha=:senha";

@@ -9,24 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/main.css">
-</head>
-  
-  <body>
-  <div class="containder">
-         <?php if (!empty($_GET['msgErro'])) { ?>
-        <div class="alert alert-warning" role="alert">
-          <?php echo $_GET['msgErro']; ?>
-        </div>
-      <?php } ?>
-
-      <?php if (!empty($_GET['msgSucesso'])) { ?>
-        <div class="alert alert-success" role="alert">
-          <?php echo $_GET['msgSucesso']; ?>
-        </div>
-      <?php } ?>
-  </div>
-
-     
+</head>     
 
   <div class="menutopo">
 <div class=logo>
@@ -39,7 +22,7 @@
 </div>
   
  <div class="container">
-       <form action="../../Model/database/proc_login.php" method="post" class="form-action">
+       <form action="#" method="post" class="form-action">
        <p class=textboxtitulo>Login</p>     
        </br>
         <div class="teste">
